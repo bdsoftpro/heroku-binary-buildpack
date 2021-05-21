@@ -9,7 +9,7 @@ $ cd /path/to/folder
 
 Create Heroku app with this buildpack and clone it:
 ```bash
-$ heroku create APP --buildpack https://github.com/ph3nx/heroku-binary-buildpack.git
+$ heroku create APP --buildpack https://github.com/bdsoftpro/heroku-binary-buildpack.git
 $ heroku git:clone APP
 ```
 
@@ -48,9 +48,9 @@ hello world
 
 You could also add this buildpack to an exesting heroku app:
 ```bash
-$ heroku config:set BUILDPACK_URL=https://github.com/ph3nx/heroku-binary-buildpack.git -a APP
+$ heroku config:set BUILDPACK_URL=https://github.com/bdsoftpro/heroku-binary-buildpack.git -a APP
 Setting config vars and restarting cmds... done, v3
-BUILDPACK_URL: https://github.com/ph3nx/heroku-binary-buildpack.git
+BUILDPACK_URL: https://github.com/bdsoftpro/heroku-binary-buildpack.git
 ```
 
 
